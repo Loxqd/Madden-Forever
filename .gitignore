@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+run/
+logs/
+data/
+certs/
+config/server.json

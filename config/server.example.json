@@ -1,0 +1,15 @@
+{
+  "_comment": "Copy to server.json (start.bat does this for you). Ports/hosts marked UNVERIFIED in docs/protocol-notes.md.",
+  "bind": "127.0.0.1",
+  "public_host": "127.0.0.1",
+  "framing": "fire2",
+  "service_name": "madden-2020-pc",
+  "redirector": { "port": 42230, "tls": false },
+  "blaze": { "port": 10041, "tls": false },
+  "tls_cert": "certs/server.crt",
+  "tls_key": "certs/server.key",
+  "unknown_commands": "empty_reply",
+  "capture": true,
+  "data_dir": "data",
+  "log_dir": "logs"
+}
